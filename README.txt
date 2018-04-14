@@ -1,0 +1,1 @@
+This is a FreeCodeCamp project that uses your current location to show the weather.
