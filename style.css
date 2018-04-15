@@ -1,3 +1,27 @@
+body{
+    background: url("https://images.pexels.com/photos/55787/pexels-photo-55787.jpeg?auto=compress&cs=tinysrgb&h=350");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 300px;
+    width: 100%;
+}
 .center{
     text-align: center;
+}
+button{
+    text-decoration: none;
+    border: solid black;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgba(216,237,242,0.4);
+    box-shadow: 5px 5px 5px lightgray;
+}
+.border-text{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }

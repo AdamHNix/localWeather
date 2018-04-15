@@ -19,14 +19,17 @@
     <title>Local Weather Report</title>
 </head>
 <body class="container-fluid">
-    <div class="row">
-        <div class="col-4 center"></div>
-        <div id="main-col" class="col-4 center-text"> 
-            <h1>Your Local Weather</h1>
-            <h1>Temp Here</h1>
-            <input id = "loc-button" type = "button" class = "btn btn-primary">
-            <input id = "weather-button" type = "button" class = "btn btn-primary">
-            <input id = "wind-button" type = "button" class = "btn btn-primary">
+    <div id=main-div class = "border-text">
+        <div class="center">
+            <div id="title-text">
+                <h1>Hello! Here is Your Local Weather</h1>
+                <h3>Temp Here</h3>
+            </div>
+            <div id="button-div">
+                <button id="loc-button" type="button">Location</button>
+                <button id="weather-button" type="button">Weather</button>
+                <button id="condition-button" type="button">Condition</button>
+            </div>
         </div>
     </div>
 </body>
